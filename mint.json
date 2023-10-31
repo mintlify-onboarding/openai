@@ -1,0 +1,134 @@
+{
+    "name": "OpenAI",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.svg",
+    "colors": {
+      "primary": "#10A37F",
+      "light": "#2FCFA8",
+      "dark": "#10A37F"
+    },
+    "topbarCtaButton": {
+      "name": "Sign up",
+      "url": "https://auth0.openai.com/u/signup/identifier?state=hKFo2SBxVG5WckYtb3VzQkM0YlMtS3dLel9lSmdQV3dMWWNFcaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFV1MFBMRThlZHRHbHpxUFNOdE1LSGRJemZEU3VTRUV6o2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
+    },
+    "topbarLinks": [
+      {
+        "name": "Log in",
+        "url": "https://auth0.openai.com/u/login/identifier?state=hKFo2SBFOUlhZXBDQV9RRkU5YTF6MEFJUWEzQ0szOWxDNWdoYaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGQzWS1aSVRIWEpGbi1pRDUzWXZsMWxyZFUzMHJmc2hKo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
+      }
+    ],
+    "api": {
+        "auth": {
+          "method": "bearer"
+        }
+    },
+    "topAnchor": {
+        "name": "API Reference",
+        "icon": "square-terminal"
+    },
+    "anchors": [
+      {
+        "name": "Examples",
+        "icon": "list-tree",
+        "url": "https://platform.openai.com/examples"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://openai.com/blog"
+      }
+    ],
+    "navigation": [
+        {
+            "group": "Chat",
+            "pages": [
+              "api-reference/chat/creates-a-model-response-for-the-given-chat-conversation"
+            ]
+          },
+          {
+            "group": "Completions",
+            "pages": [
+              "api-reference/completions/creates-a-completion-for-the-provided-prompt-and-parameters"
+            ]
+          },
+          {
+            "group": "Edits",
+            "pages": [
+              "api-reference/edits/creates-a-new-edit-for-the-provided-input-instruction-and-parameters"
+            ]
+          },
+          {
+            "group": "Images",
+            "pages": [
+              "api-reference/images/creates-an-image-given-a-prompt",
+              "api-reference/images/creates-an-edited-or-extended-image-given-an-original-image-and-a-prompt",
+              "api-reference/images/creates-a-variation-of-a-given-image"
+            ]
+          },
+          {
+            "group": "Embeddings",
+            "pages": [
+              "api-reference/embeddings/creates-an-embedding-vector-representing-the-input-text"
+            ]
+          },
+          {
+            "group": "Audio",
+            "pages": [
+              "api-reference/audio/transcribes-audio-into-the-input-language",
+              "api-reference/audio/translates-audio-into-english"
+            ]
+          },
+          {
+            "group": "Files",
+            "pages": [
+              "api-reference/files/returns-a-list-of-files-that-belong-to-the-users-organization",
+              "api-reference/files/upload-a-file-that-can-be-used-across-various-endpointsfeatures-currently-the-size-of-all-the-files-uploaded-by-one-organization-can-be-up-to-1-gb-please-[contact-us]https:helpopenaicom-if-you-need-to-increase-the-storage-limit",
+              "api-reference/files/returns-information-about-a-specific-file",
+              "api-reference/files/delete-a-file",
+              "api-reference/files/returns-the-contents-of-the-specified-file"
+            ]
+          },
+          {
+            "group": "Fine-tuning",
+            "pages": [
+              "api-reference/fine-tuning/list-your-organizations-fine-tuning-jobs",
+              "api-reference/fine-tuning/creates-a-job-that-fine-tunes-a-specified-model-from-a-given-datasetresponse-includes-details-of-the-enqueued-job-including-job-status-and-the-name-of-the-fine-tuned-models-once-complete[learn-more-about-fine-tuning]docsguidesfine-tuning",
+              "api-reference/fine-tuning/get-info-about-a-fine-tuning-job[learn-more-about-fine-tuning]docsguidesfine-tuning",
+              "api-reference/fine-tuning/get-status-updates-for-a-fine-tuning-job",
+              "api-reference/fine-tuning/immediately-cancel-a-fine-tune-job"
+            ]
+          },
+          {
+            "group": "Fine-tunes",
+            "pages": [
+              "api-reference/fine-tunes/list-your-organizations-fine-tuning-jobs",
+              "api-reference/fine-tunes/creates-a-job-that-fine-tunes-a-specified-model-from-a-given-datasetresponse-includes-details-of-the-enqueued-job-including-job-status-and-the-name-of-the-fine-tuned-models-once-complete[learn-more-about-fine-tuning]docsguideslegacy-fine-tuning",
+              "api-reference/fine-tunes/gets-info-about-the-fine-tune-job[learn-more-about-fine-tuning]docsguideslegacy-fine-tuning",
+              "api-reference/fine-tunes/immediately-cancel-a-fine-tune-job",
+              "api-reference/fine-tunes/get-fine-grained-status-updates-for-a-fine-tune-job"
+            ]
+          },
+          {
+            "group": "Models",
+            "pages": [
+              "api-reference/models/lists-the-currently-available-models-and-provides-basic-information-about-each-one-such-as-the-owner-and-availability",
+              "api-reference/models/retrieves-a-model-instance-providing-basic-information-about-the-model-such-as-the-owner-and-permissioning",
+              "api-reference/models/delete-a-fine-tuned-model-you-must-have-the-owner-role-in-your-organization-to-delete-a-model"
+            ]
+          },
+          {
+            "group": "Moderations",
+            "pages": [
+              "api-reference/moderations/classifies-if-text-violates-openais-content-policy"
+            ]
+          }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/OpenAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "linkedin": "https://www.linkedin.com/company/openai/"
+      }
+  }
