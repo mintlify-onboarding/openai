@@ -10,11 +10,11 @@
       "light": "#2FCFA8",
       "dark": "#10A37F"
     },
-    "topbarCtaButton": {
-      "name": "Sign up",
-      "url": "https://auth0.openai.com/u/signup/identifier?state=hKFo2SBxVG5WckYtb3VzQkM0YlMtS3dLel9lSmdQV3dMWWNFcaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFV1MFBMRThlZHRHbHpxUFNOdE1LSGRJemZEU3VTRUV6o2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
-    },
     "topbarLinks": [
+      {
+        "name": "Sign up",
+        "url": "https://auth0.openai.com/u/signup/identifier?state=hKFo2SBxVG5WckYtb3VzQkM0YlMtS3dLel9lSmdQV3dMWWNFcaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFV1MFBMRThlZHRHbHpxUFNOdE1LSGRJemZEU3VTRUV6o2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
+      },
       {
         "name": "Log in",
         "url": "https://auth0.openai.com/u/login/identifier?state=hKFo2SBFOUlhZXBDQV9RRkU5YTF6MEFJUWEzQ0szOWxDNWdoYaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGQzWS1aSVRIWEpGbi1pRDUzWXZsMWxyZFUzMHJmc2hKo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
